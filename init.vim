@@ -15,6 +15,8 @@ Plug 'https://github.com/junegunn/fzf.vim'
 Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'morhetz/gruvbox'
 
+Plug 'tpope/vim-fugitive'
+
 Plug 'https://github.com/neomake/neomake'
 
 Plug 'https://github.com/autozimu/LanguageClient-neovim', {
@@ -56,6 +58,7 @@ let g:airline_right_alt_sep = '|'
 let g:airline_theme= 'gruvbox'
 
 " air-line
+let g:airline_extensions = ['branch']
 let g:airline_powerline_fonts = 1
 
 
