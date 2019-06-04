@@ -62,10 +62,10 @@ highlight Normal ctermbg=NONE
 
 
 "LanguageClient
-let g:LanguageClient_loggingLevel = 'INFO' 
-let g:LanguageClient_loggingFile = expand('~/.local/share/nvim/LanguageClient.log')
-let g:LanguageClient_serverCommands = {
-            \  'cpp' : ['cquery', '--language-server', '--log-file=/tmp/cq.log', '--init={"cacheDirectory":"/tmp/cquery/"}']
-            \}
+"let g:LanguageClient_loggingLevel = 'INFO' 
+"let g:LanguageClient_loggingFile = expand('~/.local/share/nvim/LanguageClient.log')
+"let g:LanguageClient_serverCommands = {
+"            \  'cpp' : ['cquery', '--language-server', '--log-file=/tmp/cq.log', '--init={"cacheDirectory":"/tmp/cquery/"}']
+"            \}
 
 
